@@ -1,0 +1,138 @@
+body{
+    background: #e8e8e8;
+}
+
+/**SETTING VISION BOARD BACKGROUND AND OVERALL PROPERTIES**/
+#vision-board{
+    width: 1200px;
+    height: 850px;
+    background-image: url('../img/background.png');
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+/**SIZE SPECIFICATIONS FOR SMALL AND LARGE BLOCKS*/
+.small-block,
+.large-block{
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.large-block{
+    height: 430px;
+}
+
+.small-block{
+    height: 210px;
+}
+
+
+/**DIFFERENT TEXT CLASS STYLES**/
+.smallcaps, 
+.important-goals{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.important-goals{
+    padding: 5px 13px;
+    background-color: #fff44f;
+    display: inline-block;
+}
+
+.large-text{
+    font-size: 38px;
+    text-transform: none;
+}
+
+/**SETTING ALIGNMENT FOR EACH BLOCK**/
+
+/**white background blocks**/
+.block-one, 
+.block-three, 
+.block-seven, 
+.block-nine{
+    background-color: white;
+}
+
+/**BLOCK ONE**/
+.block-one .smallcaps, 
+.block-one .large-text{
+    padding: 0;
+    margin: auto;
+}
+
+/**BLOCKS TWO AND EIGHT**/
+.block-two img,
+.block-eight img{
+    display: block;
+    margin: auto;
+}
+
+/**BLOCK THREE**/
+.block-three p{
+    text-align: center;
+    margin: auto;
+}
+
+/**BLOCK FOUR**/
+.block-four{
+    padding-top: 140px;
+}
+
+.block-four p{
+    text-align: left;
+    margin: 5px 0;
+}
+
+/**BLOCK FIVE**/
+.block-five{
+    padding-top: 85px;
+    background-color: #3b3b3b;
+}
+
+.block-five img{
+    display: block;
+    margin: auto;
+}
+
+.block-five p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.block-five p span{
+    font-family: 'Permanent Marker', cursive;
+}
+
+/**BLOCK SIX**/
+.block-six{
+    text-align: right;
+}
+
+.block-six img{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.block-six p,
+.block-nine p{
+    margin: 5px 0;
+}
+/** ^^ same settings needed for 
+block nine so styles are combined here.**/
+
+/**BLOCK SEVEN**/
+.block-seven{
+    text-align: center;
+}
+
+/**BLOCK NINE (block 8 is grouped with block 2 above)**/
+.block-nine{
+    text-align: right;
+}
